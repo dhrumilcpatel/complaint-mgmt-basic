@@ -1,0 +1,15 @@
+/* style.css */
+
+/* Styles for comment_form.html */
+h1 {
+    color: #343a40;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button[type="submit"] {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+/* Custom styles for the user registration page */
+.container {
+    max-width: 500px; /* Restrict the maximum width of the container */
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    background-color: #f8f9fa;
+}

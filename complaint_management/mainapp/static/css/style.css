@@ -1,0 +1,28 @@
+/* style.css */
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Additional styles can be added as needed */

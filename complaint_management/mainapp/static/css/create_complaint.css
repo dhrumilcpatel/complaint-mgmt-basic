@@ -1,0 +1,48 @@
+.container {
+    max-width: 600px; /* Maximum width for the form container */
+    margin: 50px auto; /* Center the container with margin on top and bottom */
+    padding: 20px; /* Padding inside the container */
+}
+
+h2 {
+    font-size: 2rem; /* Font size for the heading */
+    color: #343a40; /* Dark color for better readability */
+    border-bottom: 2px solid #007bff; /* Blue border for emphasis */
+    padding-bottom: 10px; /* Space between the text and the border */
+    margin-bottom: 20px; /* Margin below the heading */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the form */
+}
+
+form input[type="text"], 
+form input[type="password"], 
+form textarea {
+    border-radius: 0.5rem; /* Rounded corners for input fields */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Subtle shadow inside input fields */
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+form button {
+    width: 100%; /* Full-width button */
+    padding: 10px; /* Padding inside the button */
+    font-size: 1rem; /* Font size for better readability */
+    border: none; /* Remove default border */
+    border-radius: 0.5rem; /* Rounded corners for the button */
+}
+
+form button:hover {
+    background-color: #c82333; /* Darker background color on hover */
+    border-color: #bd2130; /* Darker border color on hover */
+}
+
+/* Optional: Add some space around form elements */
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}

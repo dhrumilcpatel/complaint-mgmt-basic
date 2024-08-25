@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/user_create.css' %}">
+
+{% block body_block %}
+    <div class="container mt-5">
+        <h2 class="mb-4">Register</h2>
+
+        <form method="post" class="p-4 border rounded shadow-sm">
+            {% csrf_token %}
+            
+            {{ form.as_p }}
+
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+{% endblock body_block %}

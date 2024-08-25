@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/create_complaint.css' %}">
+
+{% block body_block %}
+    <div class="container mt-5">
+        <h2 class="mb-4">Create New Complaint</h2>
+
+        <form method="post" class="form border p-4 rounded shadow-sm form-group">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <button type="submit" class="btn btn-danger mt-3">Publish</button>
+        </form>
+    </div>
+{% endblock body_block %}
